@@ -1,9 +1,9 @@
-package guru.springframework.recepiapp.controllers;
+package guru.springframework.controllers;
 
-import guru.springframework.recepiapp.domain.Category;
-import guru.springframework.recepiapp.domain.UnitOfMeasure;
-import guru.springframework.recepiapp.repositories.CategoryRepository;
-import guru.springframework.recepiapp.repositories.UnitOfMeasureRepository;
+import guru.springframework.domain.Category;
+import guru.springframework.domain.UnitOfMeasure;
+import guru.springframework.repositories.CategoryRepository;
+import guru.springframework.repositories.UnitOfMeasureRepository;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 

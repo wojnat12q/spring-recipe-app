@@ -1,4 +1,4 @@
-package guru.springframework.recepiapp.domain;
+package guru.springframework.domain;
 
 import jakarta.persistence.*;
 

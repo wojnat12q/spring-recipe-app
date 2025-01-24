@@ -1,4 +1,4 @@
-package guru.springframework.recepiapp.domain;
+package guru.springframework.domain;
 
 /**
  * Created by jt on 6/13/17.
