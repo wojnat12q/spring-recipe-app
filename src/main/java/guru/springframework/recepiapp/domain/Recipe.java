@@ -1,6 +1,5 @@
 package guru.springframework.recepiapp.domain;
 
-import guru.springframework.domain.Difficulty;
 import jakarta.persistence.*;
 
 import java.util.Set;
