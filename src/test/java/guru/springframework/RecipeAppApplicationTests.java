@@ -1,10 +1,11 @@
-package guru.springframework.recepiapp;
+package guru.springframework;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class RecepiAppApplicationTests {
+class RecipeAppApplicationTests {
+
 
     @Test
     void contextLoads() {
