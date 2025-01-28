@@ -38,7 +38,7 @@ public class IngredientServiceImpl implements IngredientService {
         Optional<Recipe> recipeOptional = recipeRepository.findById(recipeId);
 
         if (recipeOptional.isEmpty()){
-            //todo impl error handling
+
             log.error("recipe id not found. Id: " + recipeId);
         }
 
@@ -49,7 +49,7 @@ public class IngredientServiceImpl implements IngredientService {
                 .map( ingredient -> ingredientToIngredientCommand.convert(ingredient)).findFirst();
 
         if(!ingredientCommandOptional.isPresent()){
-            //todo impl error handling
+
             log.error("Ingredient id not found: " + ingredientId);
         }
 
