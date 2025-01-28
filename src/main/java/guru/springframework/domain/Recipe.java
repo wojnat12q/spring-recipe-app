@@ -1,12 +1,15 @@
 package guru.springframework.domain;
 
-import jakarta.persistence.*;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.HashSet;
+import jakarta.persistence.*;
 import java.util.Set;
 
-@Data
+
+@Getter
+@Setter
 @Entity
 public class Recipe {
 

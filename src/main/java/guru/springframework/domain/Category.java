@@ -1,11 +1,16 @@
 package guru.springframework.domain;
 
-import jakarta.persistence.*;
-import lombok.*;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.Setter;
 
+
+import jakarta.persistence.*;
 import java.util.Set;
 
-@Data
+
+@Getter
+@Setter
 @EqualsAndHashCode(exclude = {"recipes"})
 @Entity
 public class Category {
