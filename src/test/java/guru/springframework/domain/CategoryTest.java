@@ -1,7 +1,5 @@
 package guru.springframework.domain;
 
-import org.aspectj.lang.annotation.Before;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -17,18 +15,20 @@ public class CategoryTest {
     }
 
     @Test
-    void getId() {
-        Long idValue=4L;
+    public void getId() throws Exception {
+        Long idValue = 4L;
+
         category.setId(idValue);
 
         assertEquals(idValue, category.getId());
     }
 
     @Test
-    void getDescription() {
+    public void getDescription() throws Exception {
     }
 
     @Test
-    void getRecipes() {
+    public void getRecipes() throws Exception {
     }
+
 }
