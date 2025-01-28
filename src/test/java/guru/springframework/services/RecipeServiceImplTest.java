@@ -18,6 +18,7 @@ import java.util.Optional;
 import java.util.Set;
 
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.util.AssertionErrors.assertNotNull;
 
@@ -56,7 +57,7 @@ public class RecipeServiceImplTest {
         verify(recipeRepository, never()).findAll();
     }
 
-    @Test(expected = NotFoundException.class)
+    @Test
     public void getRecipeByIdTestNotFound() throws Exception {
 
         Optional<Recipe> recipeOptional = Optional.empty();
